@@ -13,7 +13,7 @@ const AddMessageForm = () => {
         name="message"
         value={inputValue}
         onChange={handleInputChange}
-        placeholder="Напишіть повідомлення........"
+        placeholder="Напишіть повідомлення..."
         className="bg-background/60 h-10 placeholder:text-zinc-600/75 placeholder:italic focus-visible:ring-zinc-500"
         endIcon={
           <Button
